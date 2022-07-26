@@ -1,8 +1,15 @@
+* {
+    font-family: 'Roboto';
+}
+
+
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 0px;
+    min-width: 500px;
     
 }
 
@@ -73,7 +80,7 @@ a {
 
 .heading {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: bold;
     color: #F9FAF8;
     margin-top: 0;
 }
@@ -92,7 +99,7 @@ a {
 .button1 {
     margin-top: 5px;
     background-color: #3882F6;
-    border-radius: 4px;
+    border-radius: 10px;
     border: none;
     color: #E5E7EB;
     padding: 5px 20px;
@@ -102,7 +109,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
+    padding: 10px 10px 70px 10px;
 }
 
 .container {
@@ -112,10 +119,10 @@ a {
 }
 
 .container2 {
-    height: 100px;
-    width: 100px;
+    height: 130px;
+    width: 130px;
     border-color: #3882F6;
-    
+    border-width: 3px;
     border-style: solid;
     margin: 10px;
     border-radius: 10px;
@@ -123,9 +130,9 @@ a {
 }
 
 .heading2 {
-    margin: 50px;
+    margin: 15px;
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: bold;
     color: #1F2937;
 }
 
@@ -141,7 +148,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 15px;
 }
 
 .quotecontainer {
@@ -157,7 +164,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 500px;
+    max-width: 600px;
 }
 
 .divide {
@@ -168,18 +175,22 @@ a {
 .author {
     align-self: flex-end;
     margin-top: 10px;
+    font-weight: bolder;
 }
 
 .quote {
     font-size: 26px;
     font-family: "light italic";
     color: #1F2937;
+    
 }
 
 .container3 {
-    min-width: 2000px;
-    height: 100px;
+    width: 980px;
+    height: auto;
+    min-height: 100px;
     background-color: #3882F6;
+    border-radius: 10px;
 }
 
 .calltoaction {
@@ -191,19 +202,46 @@ a {
 }
 
 p1 {
-    display: block;
+   
+    font-size: 24px;
+    font-weight: bold;
 }
 
-p2 {
-    display: block;
-}
+
 
 .container3 {
+    
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 .button2 {
-    margin-left: 50px;
+    margin-left: 100px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: solid;
+    color: #E5E7EB;
+    border-width: 3px;
+    padding: 5px 20px;
+    border-color: #E5E7EB;
+}
+
+.text {
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 50px;
+}
+
+.copyright {
+    color: #E5E7EB;
 }
